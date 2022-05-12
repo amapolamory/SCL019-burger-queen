@@ -19,6 +19,16 @@ body{
   
 
 }
+.title{
+
+font-family: Beth Ellen;
+font-size: 56px;
+font-weight: 400;
+line-height: 124px;
+letter-spacing: 0em;
+text-align: center;
+}
+
 
 .pic{
   width:30%;
@@ -39,12 +49,19 @@ body{
   background-color: #FFFFFF;
   border:none ;
   border-radius: 10%;
+  font-family: 'Beth Ellen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
   
 }
 .orderBtn{
   display: flex;
   flex-direction: row;
-  gap: 10%;
+  gap: 3vw;
   justify-content: center;
 }
 .menuBtns{
@@ -52,19 +69,53 @@ body{
   height:8vh;
   background-color: #FFFFFF;
   border:none;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top:10%;
+   font-family: 'Beth Ellen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
   
-  /* border-top-left-radius: 15%;
-  border-bottom-right-radius: 15%;
-  border-bottom-left-radius: 15%;
-  border-top-right-radius: 15%; */
 
+}
+.breakDiv,.lunchDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 5rem);
+  grid-gap: 2%;
+  align-self: center;
+  gap:1%;
+  margin-top:10%;
+  background-color: #FFFFFF;
+  border: 7px solid #FFE699;
+  border-color:#FFE699;
+  border-radius: 10px;
+  width: 70vw;
+  background-size: contain;
+  height:35vh;
+  padding-top:3%;
+ 
+}
+.optionsBreak, .optionsLunch{
+  border-radius: 10px;
+  background-color: #FFE699;
+  border :none;
+  height: 7vh;
+  width: 30vw;
+  align-self: center;
+  justify-content: center;
+  margin-left: 4%;
 }
 
 .items{
   background-color: #FFE699;
   height: 5vh;
-  width: 20%;
   border :none;
+  font-size: large;
 }
 
 

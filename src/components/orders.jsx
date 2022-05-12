@@ -3,11 +3,13 @@
 import React, { useState } from 'react';
 import { BreakfastItems} from "./breakfast.jsx"
 import { LunchItems } from './lunch.jsx';
-import maincss from '../style/main.css'
+import maincss from '../style/main.css';
+
 
 
 export default function MenuOptions() {
     const [menu, setMenu] = useState('breakfast');
+    
   
    
     return (

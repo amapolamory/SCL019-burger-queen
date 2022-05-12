@@ -8,7 +8,7 @@ export default function home(){
 
     return (
       <div className='mainDiv'>
-       <h1>{hello} </h1>
+       <h1 className='title'>{hello} </h1>
         <div className='imgContainer'>
         <img src={empanada} alt ="empanada" className='pic' />
         </div>
