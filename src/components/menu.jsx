@@ -21,7 +21,8 @@ export default function MenuItems(props){
                 const lunch = data.menu.filter((elem) => elem.type === option);
                 setMenu(lunch);
                 break;
-            default:
+              
+            default: 
 
 
         }
@@ -40,7 +41,7 @@ export default function MenuItems(props){
             <div className='productContainer'>
 
                 {menu.map((comida) => (
-                    <button onClick={() => addItem(comida)} className='optionsBreak' key={comida.id}> {`${comida.name} $${comida.price}`} </button>
+                    <button onClick={() => addItem(comida)} className='options' key={comida.id}> {`${comida.name} $${comida.price}`} </button>
                 
                    )
                

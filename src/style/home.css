@@ -28,7 +28,20 @@ line-height: 124px;
 letter-spacing: 0em;
 text-align: center;
 }
+.title2{
+align-self:center ;
+position: absolute;
+width: 346px;
+height: 85px;
+font-family: 'Beth Ellen';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 102px;
+text-align: center;
 
+color: #000000;
+}
 
 .pic{
   width:30%;
@@ -59,21 +72,23 @@ text-align: center;
   
 }
 .orderBtn{
-  margin-top: -40%;
+  margin-top: -62%;
+  margin-left: -10%;
   display: flex;
   flex-direction: row;
-  gap: 3vw;
+  gap: 10%;
   justify-content: center;
+  width: 100vw;
 }
 .menuBtns{
-  width: 25vh;
+  width: 40%;
   height:8vh;
   background-color: #FFFFFF;
   border:none;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   margin-top:10%;
-   font-family: 'Beth Ellen';
+  font-family: 'Beth Ellen';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -81,7 +96,24 @@ text-align: center;
   text-align: center;
   color: #000000;
   
+}
 
+.breakDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 5rem);
+  grid-gap: 2vw;
+  align-self: center;
+  gap: 2vw;
+  margin-top: 35%;
+  background-color: #FFFFFF;
+  border: 7px solid #FFE699;
+  border-color: #FFE699;
+  border-radius: 10px;
+  width: 90vw;
+  background-size: contain;
+  height: 30vh;
+  padding-top: 3%;
 }
 
 .optionsBreak, .options{
@@ -89,17 +121,29 @@ text-align: center;
   background-color: #FFE699;
   border :none;
   height: 7vh;
-  width: 30vw;
+  width: 32vw;
   align-self: center;
   justify-content: center;
   margin-left: 4%;
+  margin-top: 4%;
 }
 
  .productContainer{
    display:grid;
-   grid-template-columns: repeat(2, 55%);
+   grid-template-columns: repeat(2, 50%);
    grid-template-rows: repeat(4, 5rem);
-   margin-left: -110%;
+   margin-left: -100%;
+ }
+
+ .addDiv{
+  background-color: #FFFFFF;
+  border: 7px solid #FFE699;
+  border-color: #FFE699;
+  border-radius: 10px;
+  width: 90vw;
+  background-size: contain;
+  height: 30vh;
+  margin-top: 10%;
  }
 
 
